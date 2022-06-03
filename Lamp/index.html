@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>LampJS</title>
+    <title>Lâmpada</title>
 </head>
 <body>
     <header>
-        <h1>Lamp</h1>
+        <h1>Lâmpada JS</h1>
+        <label>click duas vezes na lâmpada</label>
     </header>
     <main>
         <div>
-            <img src="./img/desligada.jpg" alt="Lâmpada" id='lamp'>
+            <img src="./img/off.jpg" alt="Lâmpada" id='lamp'>
         </div>
+        <label>numero de lâmpadas quebradas</label>
+        <p id='contador'></p>
         <div>
             <button id='turnOn'>Ligar</button>
             <button id='turnOff'>Desligar</button>
-            <button id='troca'>trocar Lampada</button>
+            <button id='change'>Trocar</button>
         </div>
     </main>
     <script src="./lampada.js"></script>

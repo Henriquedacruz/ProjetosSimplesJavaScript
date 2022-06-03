@@ -1,4 +1,18 @@
-header,
+body{
+    background-image: linear-gradient(to left, rgb(112, 82, 221), rgb(3, 39, 56));
+    color: blanchedalmond;
+}
+p, label{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 main {
     display: flex;
     flex-direction: column;
